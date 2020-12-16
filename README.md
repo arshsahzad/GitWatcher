@@ -1,11 +1,39 @@
-### Github-Profilie-Search-React
-Github Profile and Repository Viewer With React
+### :mag_right: Github Profilie Search
 
-##### Created With: 
-  - React
-  - Javascript
-###### Modules:
-   - Styled Components
-   - Axios
-   
- 
+###### Github Profile and Repository Viewer With React
+
+<br>
+
+##### Created With:
+
+  <section style='margin-left:1rem' markdown='1'>
+
+- **:electron:** **React** : Visual Interface
+
+<br>
+
+- **:nail_care:** **Styled Components** : Visual And Style
+
+<br>
+
+- **:electric_plug:** **Axios** : Receive API Data
+
+  <br>
+
+- **:octocat:** **GitHub Api**: Api to Get Users/Repositorys
+  Informations
+
+  </section>
+
+<br>
+<br>
+
+#### :wrench: How Run This App in Your Local Machine ?
+
+- ##### First Clone This Repository With
+
+  - Git Clone : Link
+    <br>
+
+- Go to the Folder Location and Use `Yarn Install` or `npm install` to Install all Dependencies
+- After This Use `Yarn Start` and Go to http://LocalHost:3000/
