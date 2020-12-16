@@ -28,9 +28,9 @@
 <br>
 <br>
 
-#### Demo: **github-profilie-search-react.vercel.app/**
+#### Demo: 
 
-**:earth_americas:** \*\*\*\*
+**:earth_americas:** **github-profilie-search-react.vercel.app/**
 
 <br>
 <br>
