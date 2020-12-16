@@ -30,7 +30,7 @@
 
 #### Demo: 
 
-**:earth_americas:** **github-profilie-search-react.vercel.app/**
+**:earth_americas:** **https://github-profilie-search-react.vercel.app/**
 
 <br>
 <br>
