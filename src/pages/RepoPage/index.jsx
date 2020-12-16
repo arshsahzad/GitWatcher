@@ -1,7 +1,9 @@
 import React from 'react'
 import {useParams} from 'react-router'
-import {DivProfile,RepoDiv} from './styleMain'
-import GetApiData from '../../services/api' 
+import {DivProfile,RepoDiv,ArrowBack} from './styleMain'
+import GetApiData from '../../services/api'
+import {ReactComponent as IconArrow} from '../../assets/arrow-left.svg' 
+import {Link} from 'react-router-dom'
 
 
 export default function RepoPage(){
@@ -23,6 +25,10 @@ export default function RepoPage(){
 
     return (
        <>
+        <ArrowBack>
+            <Link to='/'><IconArrow/></Link>
+        </ArrowBack>
+
        <DivProfile>
            {ProfileData &&
         

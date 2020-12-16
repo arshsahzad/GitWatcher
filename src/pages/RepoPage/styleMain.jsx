@@ -122,7 +122,40 @@ const RepoDiv = styled.div`
     
 `;
 
+
+const ArrowBack = styled.section`
+    position:fixed;
+    width:5rem;
+    height:5rem;
+    top:0.1rem;
+    z-index:9999;
+
+
+    a{
+        width: 100%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        &:hover svg{
+            fill: #8b8a8a;
+        }
+
+
+    }
+
+    svg{
+        fill:#666565;
+        width: 2rem;
+        height:2rem;
+        transition: fill 0.3s ease;
+    }
+
+`
+
 export{
     DivProfile,
     RepoDiv,
+    ArrowBack,
 }

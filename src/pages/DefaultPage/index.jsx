@@ -1,6 +1,7 @@
 import LocalStorageControl from "../../services/localStorage";
 import React from "react";
 import GetApiData from "../../services/api";
+import {Link} from 'react-router-dom'
 
 // Style
 import {
@@ -83,7 +84,7 @@ function App() {
 function ProfileSearchDiv({ login, avatar_url, id }) {
 	return (
 		<DivProfileSearch>
-			<a href={"/profile/" + login}>
+			<Link to={"/profile/" + login}>
 				<img src={avatar_url} alt={login} />
 
 				<section>
@@ -95,7 +96,7 @@ function ProfileSearchDiv({ login, avatar_url, id }) {
 					<h5>ID</h5>
 					<h3>{id}</h3>
 				</section>
-			</a>
+			</Link>
 		</DivProfileSearch>
 	);
 }
@@ -116,13 +117,10 @@ function VisitedProfiles({ items }) {
 				{items &&
 					items.map((item) => {
 						return (
-							<a
-								key={item.user + Date.now() * Math.random() * 5}
-								href={"/profile/" + item.user}
-							>
+							<Link key={item.user + Date.now() * Math.random() * 5} to={"/profile/" + item.user}>
 								<img src={item.avatar_url} alt={item.user} />
 								<h3>{item.user}</h3>
-							</a>
+							</Link>
 						);
 					})}
 			</div>
