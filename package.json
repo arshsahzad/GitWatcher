@@ -39,8 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "Git Profile Search With React.",
+  "description": "GitWatcher: Github Profile Search",
   "main": "index.js",
-  "author": "AleDiass",
+  "author": "Arsh Sahzad",
   "license": "MIT"
 }
