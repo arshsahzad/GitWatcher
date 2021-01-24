@@ -52,7 +52,7 @@ function App() {
 	return (
 		<>
 			<Header>
-				<h2>GitWatcher: Github Profile Search/h2>
+				<h2>GitWatcher: Github Profile Search</h2>
 
 			</Header>
 			<Main>
